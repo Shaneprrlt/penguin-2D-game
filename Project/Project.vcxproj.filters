@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GrafiX Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationWrapper.cpp">
+      <Filter>GrafiX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GrafiX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GrafiX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GrafiX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grafix.cpp">
+      <Filter>GrafiX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>GrafiX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GrafiX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationWrapper.h">
+      <Filter>GrafiX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GrafiX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GrafiX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GrafiX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>GrafiX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GrafiX Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

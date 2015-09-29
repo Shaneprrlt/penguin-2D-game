@@ -1,0 +1,18 @@
+/*Building Sound Files into Executables
+
+You can bundle a .wav sound file within an executable so that the sound file does not have to accompany the executable
+as a separate file.  Suppose that you have a .wav sound file in your Project folder named "filename.wav".  
+In code, we can refer to this sound with a string such as "sound_name".  The resource file sound.rc that you are currently reading) handles that situation with:*/
+
+sound_name          WAVE       "filename.wav"
+
+/*First, add this resource file to the project with Project -> Add Existing Item.  Then
+at the place in your code where you want to play your sound, use the GrafiX function
+
+	play_sound("sound_name");
+
+(Note that there are no quotes around sound_name in the .rc file but that there are quotes around sound_name 
+in your code.) Compile your project.  At this point, your executable should have the sound file built into it.
+(Note that if sound_name has the .wav extension, then that file will be played but not be bundled.  The resulting executable would always have to be played with the .wav file in the same folder.)*/
+
+
